@@ -1,5 +1,5 @@
 -- Getting player and inventory information for inserting items into correct places
-script.on_event(defines.events.on_player_created, function(event)
+script.on_event(defines.events.on_cutscene_cancelled, function(event)
 	local player = game.players[event.player_index]
 	local inventories = {
 		defines.inventory.player_armor,
@@ -116,7 +116,7 @@ script.on_event(defines.events.on_player_created, function(event)
 	}
 	
 	-- Creating setting options and setting default option to "Medium"
-	local kitSetting = settings.startup["quick-start-kit"].value
+	local kitSetting = settings.startup["script-config-start"].value
 	local kit = kits[kitSetting]
 	if kit == nil then
 		kit = kits["medium"]

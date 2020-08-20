@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------------------------------
+Version: 3.0.2
+Date: 20. 8. 2020.
+  bugfix:
+    - Typo in indexing, created crash on load up.
+---------------------------------------------------------------------------------------------------
+Version: 3.0.1
+Date: 16. 8. 2020.
+  Locale:
+    - Updated discription to show summary of what you get from each preset.
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 16. 8. 2020.
+  Changes:
+    - Updated to 1.0.
+---------------------------------------------------------------------------------------------------
+Version: 2.9.2
+Date: 25. 4. 2020.
+  Changes:
+    - Added more presets "BIG", making final presets "SMALL", "MEDIUM" and "BIG".
+  Locale:
+    - Added settings page name for preset "BIG".
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0-2.9.1
+Date: 14. 4. 2020.
+  Changes:
+    - Complete rewite of mod for faster loading and easier settings page, doing this lost previous changelog.txt.

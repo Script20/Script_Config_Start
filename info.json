@@ -1,11 +1,11 @@
 {
   "name": "Script_Config_Start",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "title": "Script Config Start",
   "author": "Script20",
   "contact": "Discord: Script#6602",
   "homepage": "discord.gg/D2YJFBm",
+  "description": "This mod will allow you to choose a set of preset items you will start with.\n\nSMALL:\nCopper/Iron Plates: 200, Iron Gears: 50, Yellow Belts: 250, Splitters: 25, underground belts: 25, Burner Drills: 25, Stone Furnace: 25, Coal: 200\n\nMEDIUM:\n2x of everything and addtionaly, Assembly Machine Tier 1: 50, Long Handed Inserters: 50, Pump: 1, Boiler: 10, Steam Engine 20, Coal: 400, Pipe/togronud: 50\n\nBIG:\nWill give you 2x that MEDIUM gave: items, logitics, research automation will also be preResearched and a car!",
   "factorio_version": "1.0",
-  "dependencies": ["base >= 1.0"],
-  "description": "This mod will allow you to choose a set of preset items you will start with.\n\nSMALL:\nCopper/Iron Plates: 200, Iron Gears: 50, Yellow Belts: 250, Splitters: 25, underground belts: 25, Burner Drills: 25, Stone Furnace: 25, Coal: 200\n\nMEDIUM:\n2x of everything and addtionaly, Assembly Machine Tier 1: 50, Long Handed Inserters: 50, Pump: 1, Boiler: 10, Steam Engine 20, Coal: 400, Pipe/togronud: 50\n\nBIG:\nWill give you 2x that MEDIUM gave: items, logitics, research automation will also be preResearched and a car!"
+  "dependencies": ["base >= 1.0", "ScriptLib >= 0.0.2"]
 }
